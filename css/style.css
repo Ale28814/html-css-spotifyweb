@@ -10,6 +10,26 @@
     color: white;
 }
 
+.mg-b{
+    margin-bottom: 20px;
+}
+
+.mgt-font{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.ul-style{
+    list-style: none;
+    margin-left: 25px;
+    color: #7d7d7d;
+}
+
+.ico{
+    font-size: 60px;
+    vertical-align: middle;
+}
+
 /*SIDEBAR*/
 .sidebar{
     position: fixed;
@@ -19,24 +39,9 @@
 }
 
 section .logo{
-    width: 65%;
+    width: 50%;
     margin-top: 30px;
-    margin-left: 25px;
-}
-
-.home{
-    margin-top: 40px;
-    font-size: 24px;
-}
-
-.home ul{
-    list-style: none;
-    margin-left: 25px;
-    color: #7d7d7d;
-}
-
-.home ul li{
-    margin-bottom: 15px
+    margin-left: 30px;
 }
 
 .home img{
