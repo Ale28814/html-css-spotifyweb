@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*UTILITIES*/
+.evidence{
+    color: white;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    position: fixed;
+    width: 15%;
+    height: 90%;
+    background-color: #000000;
+}
+
+section .logo{
+    width: 65%;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.home{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.home ul{
+    list-style: none;
+    margin-left: 25px;
+    color: #7d7d7d;
+}
+
+.home ul li{
+    margin-bottom: 15px
+}
+
+.home img{
+    vertical-align: middle;
+    width: 30px;
+}
+
+/*NAVIGATION*/
+.navbar{
+    position: fixed;
+    width: 85%;
+    right: 0;
+    height: 135px;
+    background-color: #080b12;
+    top: 0;
+}
+
+button{
+
+}
+
+.box{
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+/*FOOTER*/
+footer{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    background-color: #282828;
+}
