@@ -31,10 +31,15 @@
 }
 
 /*SIDEBAR*/
+
+body{
+    display: flex;
+}
+
 .sidebar{
     position: fixed;
-    width: 15%;
-    height: 90%;
+    width: 400px;
+    height: calc(100vh - 100px);
     background-color: #000000;
 }
 
@@ -42,6 +47,10 @@ section .logo{
     width: 50%;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+.home{
+    flex-shrink: 0;
 }
 
 .home img{
@@ -52,9 +61,9 @@ section .logo{
 /*NAVIGATION*/
 .navbar{
     position: fixed;
-    width: 85%;
+    width: calc(100% - 400px);
     right: 0;
-    height: 135px;
+    height: 100px;
     background-color: #080b12;
     top: 0;
 }
@@ -72,9 +81,32 @@ button{
 
 /*FOOTER*/
 footer{
+    display: flex;
     position: fixed;
+    justify-content: space-between;
+    font-size: 24px;
     width: 100%;
-    height: 10%;
+    height: 100px;
     bottom: 0;
+    color: white;
     background-color: #282828;
+}
+
+.left-player img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.center-player{
+    margin-top: 25px;
+}
+
+.center-player ul li{
+    display: inline;
+    list-style: none;
+    font-size: 40px;
+    margin-right: 25px;
 }
