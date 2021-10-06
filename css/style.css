@@ -1,9 +1,13 @@
+/*DEFAULT SETTING*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+/*UTILITIES*/
 
 .evidence{
     color: white;
@@ -17,7 +21,11 @@
     margin-top: 15px;
 }
 
+/*QUERY*/
+
 @media screen and (min-width: 1100px) {}
+
+
 
 body{
     display: flex;
@@ -28,6 +36,8 @@ section{
     display: flex;
     flex-direction: row;
 }
+
+/*ASIDE*/
 
 aside{
     display: flex;
@@ -96,29 +106,35 @@ aside{
     width: 100%;
 }
 
+/*UPGRADE*/
+
 .bar{
     position: fixed;
-    height: 50px;
+    height: 80px;
     width: calc(100vw - 400px);
     text-align: right;
     background-color: #080b12;
 }
 
 button{
-    margin-top: 14px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 40px;
+    color: white;
+    background-color: #080b12;
 }
+
+/*MAIN*/
 
 .container{
     display: flex;
 }
 
 .album{
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
     overflow-y: scroll;
     width: calc(100vw - 400px);
@@ -171,6 +187,8 @@ button{
     background-color: rebeccapurple;
 }
 
+/*FOOTER*/
+
 footer{
     display: flex;
     flex-direction: row;
@@ -178,138 +196,36 @@ footer{
     width: 100%;
     height: 80px;
     margin-bottom: 0;
-    background-color: fuchsia;
-}
-
-footer div{
-    background-color: springgreen;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-.evidence{
-    color: white;
-}
-
-.mg-b{
-    margin-bottom: 20px;
-}
-
-.mgt-font{
-    margin-top: 40px;
-    font-size: 24px;
-}
-
-.ul-style{
-    list-style: none;
-    margin-left: 25px;
-    color: #7d7d7d;
-}
-
-.ico{
-    font-size: 60px;
-    vertical-align: middle;
-}
-
-
-
-body{
-    display: flex;
-}
-
-.sidebar{
-    position: fixed;
-    width: 400px;
-    height: calc(100vh - 100px);
-    background-color: #000000;
-}
-
-section .logo{
-    width: 50%;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
-.home{
-    flex-shrink: 0;
-}
-
-.home img{
-    vertical-align: middle;
-    width: 30px;
-}
-
-
-.navbar{
-    position: fixed;
-    width: calc(100% - 400px);
-    right: 0;
-    height: 100px;
-    background-color: #080b12;
-    top: 0;
-}
-
-button{
-
-}
-
-.box{
-    flex-direction: row;
-    width: 30px;
-    height: 30px;
-    background-color: red;
-}
-
-
-footer{
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    font-size: 24px;
-    width: 100%;
-    height: 100px;
-    bottom: 0;
-    color: white;
     background-color: #282828;
 }
 
-.left-player img{
+.riprod-sx{
+    color: white;
+}
+
+.riprod-sx img{
     width: 50px;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 20px;
     vertical-align: middle;
 }
 
-.center-player{
-    margin-top: 25px;
+.riprod-cent{
+    color: white;
 }
 
-.center-player ul li{
+.riprod-cent ul{
+    margin-bottom: 10px;
+}
+
+.riprod-cent ul li{
     display: inline;
     list-style: none;
     font-size: 40px;
     margin-right: 25px;
 }
 
-*/
+.fa-play-circle{
+    font-size: 60px;
+}
